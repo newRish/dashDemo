@@ -1,3 +1,5 @@
+// Conversion of iagedata uri to file
+
 export const dataURItoBlob = (dataURI) => {
   var byteString = atob(dataURI.split(",")[1]);
 
